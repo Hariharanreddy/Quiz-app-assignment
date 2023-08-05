@@ -114,22 +114,21 @@ const Play = () => {
             )}
 
             <div id="traverse-div">
-              <div>
+              
                 <button
                   style={{ backgroundColor: "#cc336b", color: "white" }}
                   onClick={handleQuit}
                 >
                   Quit
                 </button>
-              </div>
-              <div>
+              
                 <button
                   style={{ backgroundColor: "#62bf95", color: "white" }}
                   onClick={handleNext}
                 >
                   Next
                 </button>
-              </div>
+              
             </div>
           </div>
         </div>
