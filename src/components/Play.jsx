@@ -32,8 +32,9 @@ const Play = () => {
   };
 
   const countScore = (item) => {
-    console.log(item);
+    
     if (item == questions.data[questionArray[currentQuestion]].ans) {
+
       setScore((prevScore) => {
         return prevScore + 1;
       });

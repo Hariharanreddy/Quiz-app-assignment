@@ -23,6 +23,7 @@ const SelectCategory = () => {
 
   const handleClick = () => {
     if (category) {
+      localStorage.setItem("score", 0);
       navigate(`/play/${category}`);
     } else {
       alert("Please select an option to continue.");
